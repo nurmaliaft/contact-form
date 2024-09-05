@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(pic1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+ font-size: 32px;
+ color: white;
+ font-weight: 600;
+ padding-bottom: 20px;  
+}
+
+p{
+    color: #d2d2d2;
+}
+
+p,
+input,
+textarea,
+label{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+
+input,
+textarea,
+label{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+}
+
+input,textarea{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+
+input[type=submit]{
+    background-color: #2d4b2b;
+    padding: 15px 0;
+    color: white;
+    font-size: 16px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+input[type=submit]:hover{
+    background: #4f8f6d;
+    color: #1b1c1e;
+}
+
+input,
+textarea{
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+input:focus,
+textarea:focus{
+    outline: 1px solid gray;
+}
